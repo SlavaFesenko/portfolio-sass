@@ -1,10 +1,10 @@
 // При использовании дублирующего @forward наверх проходят и стили, и остальное
 // Без использования дублирующего @forward наверх проходят только стили
 @forward "defs"; 
-@use "defs" as *;
+@use "defs";
 
 #use-defs-style {
-  padding: $var-1;
-  margin: func-1(4px);
-  @include mixin-1;
+  padding: defs.$var-1;
+  margin: defs.func-1(4px);
+  @include defs.mixin-1;
 }
