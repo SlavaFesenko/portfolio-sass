@@ -1,15 +1,9 @@
 #style-1 {
+  margin-top: 1px;
   margin-right: 1px;
 }
 
-#use-defs-style {
-  padding: 10px;
-  margin: 4px;
-  position: absolute;
-}
-
-#use-forward-experiment {
-  padding: 10px;
-  margin: 4px;
-  position: absolute;
+#style-1 {
+  margin-right: 2px;
+  margin-bottom: 2px;
 }/*# sourceMappingURL=main.css.map */
