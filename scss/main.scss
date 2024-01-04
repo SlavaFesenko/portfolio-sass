@@ -2,5 +2,6 @@
 
 div {
   padding: b.$var1;
+  margin-left: b.fibonacci(4) * 1px;
   @include b.from_common_mixins;
 }
