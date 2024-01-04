@@ -1,4 +1,10 @@
-@forward 'common-variables';
-@forward 'common-mixins';
-@forward 'common-styles';
-@forward 'common-functions';
+@use "common-styles";
+@use "common-variables" as v;
+@use "common-mixins" as m;
+@use "common-functions" as f;
+
+#default-scss-behavior {
+  padding: v.$var1;
+  margin-left: f.common-function(4px);
+  @include m.from-common-mixins;
+}

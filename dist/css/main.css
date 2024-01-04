@@ -2,18 +2,24 @@
   margin: 1px;
 }
 
-#test-style-1 {
+#default-scss-behavior {
+  padding: 1px;
+  margin-left: 4px;
+  position: absolute;
+}
+
+#style-1 {
   margin-right: 1px;
 }
 
 #use-test-style-1 {
   padding: 10px;
-  margin-left: 4px;
+  margin: function-1(4px);
   position: absolute;
 }
 
-#main-basement-check {
-  padding: 1px;
-  margin-left: 4px;
+#use-forward-experiment {
+  padding: 10px;
+  margin: 4px;
   position: absolute;
 }/*# sourceMappingURL=main.css.map */

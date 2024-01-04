@@ -1,0 +1,8 @@
+@forward "defs";
+@use "defs" as *;
+
+#use-test-style-1 {
+  padding: $var-1;
+  margin: function-1(4px);
+  @include mixin-1;
+}
