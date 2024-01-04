@@ -1,7 +1,7 @@
-@use "./use-forward";
+@use "./use-forward" as uf;
 
 #use-forward-experiment {
-  padding: use-forward.$var-1;
-  margin: use-forward.func-1(4px);
-  @include use-forward.mixin-1;
+  padding: uf.$var-1;
+  margin: uf.func-1(4px);
+  @include uf.mixin-1;
 }
