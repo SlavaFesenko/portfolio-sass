@@ -1,1 +1,7 @@
-@forward 'use-defs';
+@use "forward-use-defs" as *;
+
+#use-forward-experiment {
+  padding: $var-1;
+  margin: func-1(4px);
+  @include mixin-1;
+}
