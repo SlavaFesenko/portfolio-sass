@@ -1,0 +1,7 @@
+@use "test-style" as *;
+
+#use-test-style-1 {
+  padding: $test-var-1;
+  margin-left: test-function-1(4px);
+  @include test-mixin-1;
+}

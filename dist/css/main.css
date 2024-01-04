@@ -1,9 +1,19 @@
-#from_common_styles {
+#from-common-styles {
   margin: 1px;
 }
 
-div {
+#test-style-1 {
+  margin-right: 1px;
+}
+
+#use-test-style-1 {
+  padding: 10px;
+  margin-left: 4px;
+  position: absolute;
+}
+
+#main-basement-check {
   padding: 1px;
-  margin-left: 5px;
+  margin-left: 4px;
   position: absolute;
 }/*# sourceMappingURL=main.css.map */

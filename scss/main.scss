@@ -1,7 +1,14 @@
 @use './basement/index' as b;
+@use './experiment/use-forward/forward-use-test-style' as e-fu;
 
-div {
+#main-basement-check {
   padding: b.$var1;
-  margin-left: b.fibonacci(4) * 1px;
-  @include b.from_common_mixins;
+  margin-left: b.common-function(4px);
+  @include b.from-common-mixins;
+}
+
+#main-experiment-use-forward-check {
+  // padding: e-fu.$test-var-1;
+  // margin-left: e-fu.test-function-1(4px);
+  // @include b.test-mixin-1;
 }

@@ -1,0 +1,13 @@
+#test-style-1 {
+  margin-right: 1px;
+}
+
+$test-var-1: 10px;
+
+@mixin test-mixin-1 {
+  position: absolute;
+}
+
+@function test-function-1($n) {
+  @return $n;
+}
